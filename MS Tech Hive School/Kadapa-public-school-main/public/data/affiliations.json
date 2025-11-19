@@ -1,0 +1,50 @@
+{
+  "school": {
+    "name": "Kadapa Public School",
+    "location": "Kadapa, Andhra Pradesh",
+    "affiliation": "CBSE",
+    "affiliationNo": "130623"
+  },
+  "affiliatedInstitutions": [
+    {
+      "name": "Aakash Institute",
+      "type": "Coaching",
+      "image": "/images/Aakash.jpg"
+    },
+    {
+      "name": "Institute of Nano Science and Technology",
+      "type": "Research Institute",
+      "image": "/images/INST.jpg"
+    },
+    {
+      "name": "Unacademy",
+      "type": "Online Education",
+      "image": "/images/unacademy.jpg"
+    },
+    {
+      "name": "Physics Wallah",
+      "type": "Online Coaching",
+      "image": "/images/physics-wallah.jpg"
+    },
+    {
+      "name": "ALLEN Stars",
+      "type": "Coaching Institute",
+      "image": "/images/allen-career-institute.jpg"
+    },
+    {
+      "name": "IIT Madras",
+      "type": "University",
+      "program": "School Connect Program",
+      "image": "/images/IIT-madras.jpg"
+    },
+    {
+      "name": "Raisoni Education",
+      "type": "Education Group",
+      "image": "/images/raisoni.jpg"
+    },
+    {
+      "name": "Resonance Colleges",
+      "type": "Coaching Institute"
+    }
+  ]
+}

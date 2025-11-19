@@ -1,0 +1,108 @@
+{
+    "name": "Kadapa Public School",
+    "location": "Alam Khan Palle, Kadapa, Andhra Pradesh, India",
+    "established": 2019,
+    "campus_size_acres": 4,
+    "affiliation": "CBSE (Central Board of Secondary Education)",
+    "principal": "P Rama Mohan Reddy",
+    "principal_qualifications": [
+        "M.COM",
+        "B.ED"
+    ],
+    "school_type": "Independent, Co-Ed, Secondary Level",
+    "managing_committee": "Sphurthi Foundation",
+    "infrastructure": {
+        "labs": [
+            "Science Lab",
+            "Computer Lab",
+            "Math Lab",
+            "Music Lab"
+        ],
+        "library": true,
+        "kindergarten": true,
+        "sports_facilities": [
+            "Table Tennis",
+            "Carroms",
+            "Chess",
+            "Football",
+            "Kho-Kho",
+            "Throw Ball",
+            "Hand Ball",
+            "Athletics"
+        ],
+        "cafeteria": true,
+        "hostel": true,
+        "transport_facility": true,
+        "drinking_water": true,
+        "gymnasium": false
+    },
+    "admission_process": {
+        "registration": "Visit administration office or online website",
+        "application_review": "Assessment and merit-based selection",
+        "interview": "Personality assessment (age-appropriate)",
+        "documents_required": {
+            "birth_certificate": true,
+            "previous_school_marksheet": true
+        },
+        "working_hours": {
+            "monday": "8:30 am - 6:00 pm",
+            "tuesday": "8:30 am - 6:00 pm",
+            "wednesday": "8:30 am - 6:00 pm",
+            "thursday": "8:30 am - 6:00 pm",
+            "friday": "8:30 am - 6:00 pm",
+            "saturday": "8:30 am - 6:00 pm",
+            "sunday": "Closed"
+        }
+    },
+    "fee_structure": {
+        "admission_fee": "Rs 25",
+        "tuition_fee": {
+            "class_IX_X": "Rs 200/month",
+            "class_XI_XII_Commerce": "Rs 300/month",
+            "class_XI_XII_Science": "Rs 400/month"
+        },
+        "computer_fund": "Rs 100/150",
+        "development_fund": "Rs 500"
+    },
+    "staff": {
+        "student_teacher_ratio": "30:1",
+        "faculty_training": "Extensive, skills-focused",
+        "boarding_staff": true,
+        "security_staff": true
+    },
+    "facilities": [
+        "Laboratories for hands-on experience",
+        "Music, Art & Craft",
+        "Yoga and Meditation",
+        "Indoor and outdoor sports",
+        "Scholarships for merit in academics & activities"
+    ],
+    "extracurricular_activities": [
+        "Election cabinet (student leadership)",
+        "Art contests",
+        "Music classes",
+        "Sports tournaments",
+        "Yoga & meditation workshops"
+    ],
+    "focus_areas": [
+        "Critical Thinking",
+        "Creativity",
+        "Collaboration",
+        "Communication",
+        "Social Skills",
+        "Flexibility"
+    ],
+    "hostel_security": {
+        "cctv": true,
+        "guards": true,
+        "regulated_entries": true
+    },
+    "transport_routes": "Connects all city corners with GPS and CCTV enabled buses",
+    "parent_testimonials": [
+        "Top-notch education and great values.",
+        "Balanced academics and activities.",
+        "All teachers are amazing, with fun experiences."
+    ],
+    "contact_website": "http://kadapapublicschool.org",
+    "pin_code": 516001
+}

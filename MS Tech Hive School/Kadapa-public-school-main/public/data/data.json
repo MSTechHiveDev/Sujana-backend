@@ -1,0 +1,228 @@
+{
+  "school": {
+    "name": "Kadapa Public School",
+    "tagline": "Nurturing Excellence, Building Future Leaders",
+    "location": "Alam Khan Palle, Kadapa, Andhra Pradesh, India",
+    "established": 2019,
+    "campus_size_acres": 4,
+    "affiliation": "CBSE (Central Board of Secondary Education)",
+    "affiliation_number": "130623",
+    "principal": {
+      "name": "P Rama Mohan Reddy",
+      "qualifications": ["M.COM", "B.ED"],
+      "message": "Education is not just about books and examinations, but about life and character building."
+    },
+    "school_type": "Independent, Co-Ed, Secondary Level",
+    "managing_committee": "Sphurthi Foundation",
+    "contact": {
+      "phone": "+91-9989777356",
+      "email": "info@gmail.com",
+      "website": "https://www.kadapapublicschool.org",
+      "address": {
+        "street": "T. Ramachandrapuram, Poollam Palli Road, KPS Main Road, AalamKhan Palle",
+        "city": "Kadapa",
+        "district": "Y.S.R.",
+        "state": "Andhra Pradesh",
+        "pinCode": "516001"
+      }
+    }
+  },
+  "mission_vision": {
+    "mission": "To provide quality education and holistic development for every student, cultivating a love for learning and instilling values that shape well-rounded individuals.",
+    "vision": "A nurturing environment where students achieve excellence in both academics and life, becoming future leaders who will make a meaningful impact on society."
+  },
+  "academics": {
+    "curriculum": "CBSE",
+    "classes_offered": ["Class IX", "Class X", "Class XI", "Class XII"],
+    "streams": ["Science", "Commerce", "Arts"],
+    "student_teacher_ratio": "30:1",
+    "teaching_methodology": "Interactive, hands-on learning approach",
+    "assessment": "Continuous and comprehensive evaluation",
+    "labs": ["Science Lab", "Computer Lab", "Math Lab", "Music Lab"],
+    "library": true,
+    "kindergarten": true
+  },
+  "infrastructure": {
+    "campus_size": "4 acres",
+    "buildings": [
+      "Academic Blocks",
+      "Science & Technology Wing",
+      "Administrative Building",
+      "Sports Complex",
+      "Hostel Facilities"
+    ],
+    "labs": ["Science Lab", "Computer Lab", "Math Lab", "Music Lab"],
+    "sports_facilities": [
+      "Table Tennis",
+      "Carroms",
+      "Chess",
+      "Football",
+      "Kho-Kho",
+      "Throw Ball",
+      "Hand Ball",
+      "Athletics"
+    ],
+    "facilities": {
+      "library": true,
+      "cafeteria": true,
+      "hostel": true,
+      "transport_facility": true,
+      "drinking_water": true,
+      "gymnasium": false,
+      "medical_facility": true,
+      "security": true
+    }
+  },
+  "admissions": {
+    "process": [
+      "Online Registration",
+      "Document Submission",
+      "Entrance Assessment",
+      "Personal Interview",
+      "Final Selection"
+    ],
+    "requirements": [
+      "Birth Certificate",
+      "Previous School Marksheet",
+      "Transfer Certificate",
+      "Character Certificate",
+      "Passport Size Photographs"
+    ],
+    "working_hours": {
+      "monday": "8:30 am - 6:00 pm",
+      "tuesday": "8:30 am - 6:00 pm",
+      "wednesday": "8:30 am - 6:00 pm",
+      "thursday": "8:30 am - 6:00 pm",
+      "friday": "8:30 am - 6:00 pm",
+      "saturday": "8:30 am - 6:00 pm",
+      "sunday": "Closed"
+    }
+  },
+  "fee_structure": {
+    "admission_fee": "Rs 25",
+    "tuition_fee": {
+      "class_IX_X": "Rs 200/month",
+      "class_XI_XII_Commerce": "Rs 300/month",
+      "class_XI_XII_Science": "Rs 400/month"
+    },
+    "additional_fees": {
+      "computer_fund": "Rs 100-150",
+      "development_fund": "Rs 500",
+      "sports_fee": "Rs 200",
+      "library_fee": "Rs 100"
+    },
+    "scholarships": "Available for meritorious students in academics, co-curricular, and extra-curricular activities"
+  },
+  "activities": {
+    "extracurricular": [
+      "Election Cabinet (Student Leadership)",
+      "Art Contests",
+      "Music Classes",
+      "Sports Tournaments",
+      "Yoga & Meditation Workshops",
+      "Science Exhibitions",
+      "Cultural Programs"
+    ],
+    "sports": [
+      "Indoor Games",
+      "Outdoor Sports",
+      "Athletics",
+      "Team Sports",
+      "Individual Sports"
+    ],
+    "events": [
+      "Annual Function",
+      "Sports Day",
+      "Science Fair",
+      "Cultural Day",
+      "Parent-Teacher Meetings"
+    ]
+  },
+  "staff": {
+    "total_faculty": 20,
+    "administrative_staff": 10,
+    "supporting_staff": 15,
+    "student_counselors": 3,
+    "training": "Regular faculty development programs and skill enhancement workshops"
+  },
+  "transport": {
+    "routes": "Covers all major areas of Kadapa city",
+    "features": [
+      "GPS Tracking",
+      "CCTV Monitoring",
+      "GPS Enabled Buses",
+      "Trained Drivers"
+    ],
+    "safety_measures": [
+      "Regular Safety Drills",
+      "Emergency Contact System",
+      "First Aid Facilities"
+    ]
+  },
+  "hostel": {
+    "facilities": [
+      "24/7 Security",
+      "Mess Facility",
+      "Study Rooms",
+      "Recreation Areas"
+    ],
+    "security": {
+      "cctv": true,
+      "guards": true,
+      "regulated_entries": true,
+      "emergency_protocols": true
+    }
+  },
+  "testimonials": [
+    {
+      "author": "Ananya Reddy",
+      "testimonial": "The education at Kadapa Public School is top-notch. My child has learned so much and developed great values.",
+      "source": "Kadapa Public School official website",
+      "rating": 5,
+      "profilePic": "https://mockmind-api.uifaces.co/content/human/219.jpg"
+    },
+    {
+      "author": "Arjun Kumar",
+      "testimonial": "I love my school! The teachers are amazing, and I enjoy all the fun activities here.",
+      "source": "Kadapa Public School official website",
+      "rating": 5,
+      "profilePic": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "author": "Sahana Priya",
+      "testimonial": "Kadapa Public School has a great balance of academics and extracurricular activities. My child loves it!",
+      "source": "Kadapa Public School official website",
+      "rating": 5,
+      "profilePic": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "author": "Rohan Desai",
+      "testimonial": "The school provides excellent learning opportunities and a supportive environment.",
+      "source": "Generated",
+      "rating": 4,
+      "profilePic": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face"
+    },
+    {
+      "author": "Nisha Sharma",
+      "testimonial": "A fantastic school that focuses on all-round development.",
+      "source": "Generated",
+      "rating": 5,
+      "profilePic": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face"
+    }
+  ],
+  "gallery": {
+    "categories": [
+      "Campus",
+      "Classrooms",
+      "Laboratories",
+      "Sports",
+      "Events",
+      "Infrastructure"
+    ]
+  },
+  "social_media": {
+    "facebook": "https://facebook.com/kadapa.public.school",
+    "instagram": "https://instagram.com/kadapa_public_school",
+    "youtube": "https://youtube.com/kadapapublicschool"
+  }
+}

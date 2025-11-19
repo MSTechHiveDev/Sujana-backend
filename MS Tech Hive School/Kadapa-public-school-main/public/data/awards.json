@@ -1,0 +1,36 @@
+{
+  "school": "Kadapa Public School",
+  "awards": [
+    {
+      "name": "Dr. Sarvepalli Radhakrishnan National Award for Academic Excellence",
+      "year": "2025",
+      "awardedBy": "EDU EXPO Hyderabad",
+      "image": "/Awards/Img1.JPG"
+    },
+    {
+      "name": "India Conclave",
+      "year": "2025",
+      "awardedBy": "Education Excellence Awards",
+      "image": "/Awards/Img2.JPG"
+    },
+    {
+      "name": "ET TECH SCHOOL EXCELLENCE AWARD",
+      "year": "2023-24",
+      "awardedBy": "ET Tech Awards",
+      "image": "/Awards/Img3.jpeg"
+    },
+
+    {
+      "name": "Commendable Contribution in Education",
+      "year": "2025",
+      "awardedBy": "India Education Conclave",
+      "image": "/Awards/Img4.jpeg"
+    },
+    {
+      "name": "Bharat Bhushan Samman",
+      "year": "2024",
+      "awardedBy": "Universal Mentors Association, New Delhi",
+      "image": "/Awards/Img5.jpeg"
+    }
+  ]
+}

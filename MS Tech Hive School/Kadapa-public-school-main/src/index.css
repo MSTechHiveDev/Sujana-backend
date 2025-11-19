@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* Hide Chrome, Safari, and Opera scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+/* Optional: Hide scrollbar for Firefox */
+html {
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+/* Optional: Hide scrollbar for Edge/IE */
+html {
+  -ms-overflow-style: none;
+}

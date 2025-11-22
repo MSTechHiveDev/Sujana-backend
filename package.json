@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon server.js",
-    "build": "echo 'Build completed'",
     "start": "node server.js"
   },
   "keywords": [],

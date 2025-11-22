@@ -70,7 +70,7 @@ export default function About() {
 
         <div className="relative w-full lg:w-1/2 rounded-3xl overflow-hidden shadow-xl">
           <img
-            src="https://images.unsplash.com/photo-1588072432836-e10032774350?auto=format&fit=crop&w=1200&q=80"
+            src="/images/Mission.JPG"
             alt="Students with teacher"
             className="w-full h-[450px] object-cover"
           />

@@ -13,17 +13,17 @@ export default function FloatingSocialMedia() {
     {
       href: 'https://www.instagram.com/kadapa_public_school',
       icon: instagramIcon,
-      bottom: 'bottom-60',
+      bottom: 'bottom-40',
     },
     {
       href: 'https://www.facebook.com/kadapapublicschool/',
       icon: facebookIcon,
-      bottom: 'bottom-42',
+      bottom: 'bottom-29',
     },
     {
       href: 'https://www.youtube.com/@KadapaPublicSchool',
       icon: youtubeIcon,
-      bottom: 'bottom-24',
+      bottom: 'bottom-17',
     },
     {
       href: `https://wa.me/${phoneNumber}`,

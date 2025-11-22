@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sujana Gold Company Invoice</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      padding: 20px;
+    }
+
+    .invoice-box {
+      width: 820px;
+      background: white;
+      padding: 25px;
+      margin: auto;
+      border: 1px solid #ccc;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 15px;
+    }
+
+    td,
+    th {
+      padding: 8px;
+      border: 1px solid black;
+    }
+
+    .no-border td,
+    .no-border th {
+      border: none !important;
+    }
+
+    .center {
+      text-align: center;
+    }
+
+    .bold {
+      font-weight: bold;
+    }
+
+    .logo img {
+      width: 150px;
+    }
+
+    .print-btn {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background: #d4a017;
+      color: white;
+      padding: 10px 25px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    @media print {
+      button {
+        display: none;
+      }
+
+      body {
+        background: white;
+        padding: 0;
+        margin: 0;
+      }
+
+      .invoice-box {
+        border: none;
+        width: 100%;
+        padding: 10px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="print-btn">
+    <button onclick="window.print()">Print Details</button>
+  </div>
+
+  <div class="invoice-box">
+
+    <!-- LOGO & TITLE -->
+    <table class="no-border">
+      <tr class="no-border center">
+        <td class="no-border">
+          <div class="logo">
+            <img src="logo.png" alt="Sujana Gold Company">
+          </div>
+          <div class="bold" style="font-size: 26px;">SUJANA GOLD COMPANY</div>
+          Opp Apsara Theatre, Apsara Cir Road <br>
+          Kadapa, Andhra Pradesh - 516001 <br>
+          <b>Phone:</b> 6303060488
+        </td>
+      </tr>
+    </table>
+
+    <br>
+
+    <!-- COMPANY TOP DETAILS -->
+    <table>
+      <tr>
+        <td><b>BRANCH:</b> Kadapa-Central</td>
+        <td><b>CONTACT:</b> 6303060488</td>
+        <td><b>GST NO:</b> —————</td>
+      </tr>
+    </table>
+
+    <!-- CUSTOMER DETAILS -->
+    <table>
+      <tr>
+        <td><b>CUSTOMER ID:</b> SUJANA-001</td>
+        <td><b>DATE / TIME:</b> 21-11-2025 10:10:00</td>
+      </tr>
+
+      <tr>
+        <td><b>CUSTOMER NAME:</b> ___________________</td>
+        <td><b>BILL ID:</b> 10001</td>
+      </tr>
+
+      <tr>
+        <td><b>CONTACT:</b> ___________________</td>
+        <td><b>GOLD PRICE (24CT):</b> __________</td>
+      </tr>
+
+      <tr>
+        <td colspan="2"><b>ADDRESS:</b> _______________________________________________</td>
+      </tr>
+
+      <tr>
+        <td><b>ID PROOF:</b> ____________________</td>
+        <td><b>ADDRESS PROOF:</b> ___________________</td>
+      </tr>
+    </table>
+
+    <br>
+
+    GOLD ITEMS TABLE
+    <table>
+      <tr class="bold center">
+        <th>ORNAMENT TYPE</th>
+        <th>CODE</th>
+        <th>GROSS WEIGHT</th>
+        <th>STONE / WAX</th>
+        <th>NET WEIGHT</th>
+        <th>PURITY</th>
+        <th>GROSS AMOUNT</th>
+      </tr>
+
+      <tr class="center">
+        <td>Chain</td>
+        <td>1003</td>
+        <td>16.32</td>
+        <td>0</td>
+        <td>16.320</td>
+        <td>86%</td>
+        <td>1,51,580</td>
+      </tr>
+
+      <tr class="bold center">
+        <td colspan="2">GRAND TOTAL</td>
+        <td>16.32</td>
+        <td>0</td>
+        <td>16.32</td>
+        <td>86%</td>
+        <td>1,51,580</td>
+      </tr>
+    </table>
+
+    <br>
+
+
+    <br>
+
+    <!-- EXACT TERMS + AMOUNT + SIGNATURE BLOCK AS PER THE PROVIDED IMAGE -->
+
+    <!-- MAIN TWO-COLUMN SECTION -->
+    <table style="width:100%; border-collapse: collapse; font-size:14px;">
+      <tr>
+        <!-- LEFT COLUMN (TERMS) -->
+        <td style="width:65%; vertical-align:top; border:1px solid black; padding:10px;">
+
+          <!-- English Title -->
+          <div style="text-align:center; font-weight:bold; margin-bottom:6px;">
+            TERMS & CONDITIONS
+          </div>
+
+          <!-- English Terms -->
+          <div style="line-height:1.4; font-size:13.5px;">
+            1. Ornaments once purchased shall not be returned under any circumstances. <br>
+            2. If any losses arise out of this purchase, then you are liable to settle the full amount. <br>
+            3. Selling stolen gold, silver or fake gold is a criminal offence; if found will be reported to authorities.
+            <br>
+            4. Ornaments were purchased from you based on your declaration that you hold the ownership and
+            saleable title; you indemnify Sujana Gold Company from any future disputes. <br>
+            5. Kindly ensure the correctness of cash before leaving the counter. No claims afterwards.
+          </div>
+
+          <br>
+
+          <!-- Telugu Title -->
+          <div style="text-align:center; font-weight:bold; margin-bottom:6px;">
+            షరతులు మరియు నిబంధనలు
+          </div>
+
+          <!-- Telugu Terms -->
+          <div style="line-height:1.6; font-size:13.5px;">
+            1. ఒకసారి కొనుగోలు చేసిన ఆభరణాలు ఏ పరిస్థితుల్లోనూ తిరిగి స్వీకరించబడవు. <br>
+            2. ఈ కొనుగోలుతో ఏదైనా నష్టం జరిగితే, మొత్తం మొత్తాన్ని చెల్లించే బాధ్యత మీది. <br>
+            3. దొంగతనం చేసిన బంగారం లేదా నకిలీ బంగారం అమ్మడం నేరం; ఇది అధికారులకు నివేదించబడుతుంది. <br>
+            4. అమ్మిన ఆభరణాల యాజమాన్యం పూర్తిగా మీవేనని మీరు ప్రకటిస్తున్నారు; ఏ వివాదం వచ్చినా
+            Sujana Gold Company బాధ్యత కాదు. <br>
+            5. కౌంటర్ వదిలే ముందు నగదు సరిచూసుకోండి; తర్వాత ఎలాంటి ఫిర్యాదులు స్వీకరించబడవు.
+          </div>
+
+        </td>
+
+        <!-- RIGHT COLUMN (AMOUNT BOX) -->
+        <td style="width:35%; vertical-align:top; border:1px solid black; padding:0;">
+
+          <table style="width:100%; border-collapse: collapse; font-size:14px;">
+            <tr>
+              <td style="border:1px solid black; font-weight:bold; padding:8px;">GROSS AMOUNT</td>
+              <td style="border:1px solid black; padding:8px;">1,51,580</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid black; font-weight:bold; padding:8px;">MARGIN</td>
+              <td style="border:1px solid black; padding:8px;">1,580</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid black; font-weight:bold; padding:8px;">NET AMOUNT</td>
+              <td style="border:1px solid black; padding:8px;">1,50,000</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid black; font-weight:bold; padding:8px;">RELEASE</td>
+              <td style="border:1px solid black; padding:8px;">1,50,000</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid black; font-weight:bold; padding:8px;">AMOUNT PAID</td>
+              <td style="border:1px solid black; padding:8px;">1,50,000</td>
+            </tr>
+            <!-- SIGNATURE ROW (BOTTOM FULL WIDTH) -->
+            <table style="width:100%; border-collapse: collapse; margin-top:210px; font-size:9px;">
+              <tr>
+                <!-- Thumb Impression -->
+                <td
+                  style="width:50%; height:5px; border:1px solid black; text-align:center; font-weight:bold; padding-top:5px;">
+                  THUMB IMPRESSION
+                </td>
+
+                <!-- Customer Signature -->
+                <td
+                  style="width:50%; height:5px; border:1px solid black; text-align:center; font-weight:bold; padding-top:5px;">
+                  CUSTOMER SIGNATURE
+                </td>
+              </tr>
+            </table>
+          </table>
+
+        </td>
+      </tr>
+    </table>
+
+    <!-- AMOUNT IN WORDS (Bottom row) -->
+    <table style="width:100%; border-collapse: collapse; margin-top:0; font-size:14px;">
+      <tr>
+        <td style="border:1px solid black; padding:6px;justify-self: center;align-items: center;">
+          <b>AMOUNT IN WORDS :</b> ONE LAKH FIFTY THOUSAND ONLY
+        </td>
+      </tr>
+    </table>
+
+</body>
+
+</html>

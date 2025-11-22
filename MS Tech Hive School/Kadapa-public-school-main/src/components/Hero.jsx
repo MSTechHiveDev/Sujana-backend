@@ -1,12 +1,13 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Play } from 'lucide-react';
 
 export default function Hero() {
   const [students, setStudents] = useState(0);
   const [teachers, setTeachers] = useState(0);
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isModalOpen, setIsModalOpen] = useState(true);
+  const videoRef = useRef(null);
 
   useEffect(() => {
     const studentInterval = setInterval(() => {
@@ -22,6 +23,12 @@ export default function Hero() {
       clearInterval(teacherInterval);
     };
   }, []);
+
+  const handleTimeUpdate = () => {
+    if (videoRef.current && videoRef.current.currentTime >= 174) {
+      videoRef.current.currentTime = 0;
+    }
+  };
 
   return (
     <section
@@ -46,11 +53,16 @@ export default function Hero() {
             >
               ✕
             </button>
-            <iframe
-              src="https://drive.google.com/file/d/1tQGQHvr0wCO9uYjMlNJ-a30pV1Bbc5OS/preview"
+            <video
+              ref={videoRef}
+              src="/videos/icon-video.mp4"
+              autoPlay
+              // muted
+              // playsInline
+              controls
+              onTimeUpdate={handleTimeUpdate}
               className="w-[300px] h-[169px] md:w-[400px] md:h-[225px] rounded-lg"
-              allow="autoplay; fullscreen; encrypted-media; picture-in-picture"
-            ></iframe>
+            ></video>
           </div>
         </div>
       )}

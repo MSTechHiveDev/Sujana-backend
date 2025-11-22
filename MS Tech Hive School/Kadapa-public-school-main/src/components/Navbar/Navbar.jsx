@@ -12,6 +12,8 @@ import {
   Phone,
   Monitor,
   Trophy,
+  Image,
+  MessageSquare,
 } from 'lucide-react';
 
 const Navbar = () => {
@@ -23,8 +25,13 @@ const Navbar = () => {
     { name: 'About Us', href: '#about', icon: Users },
     { name: 'Academics', href: '#facilities', icon: BookOpen },
     { name: 'Admissions', href: '#admissions', icon: UserCheck },
+    { name: 'Campus & Facilities', href: '#facilities', icon: Building },
+    { name: 'Fee Structure', href: '#fees', icon: FileText },
+    { name: 'Gallery', href: '#gallery', icon: Image },
+    { name: 'Testimonials', href: '#testimonials', icon: MessageSquare },
     { name: 'Labs', href: '/labs', icon: Monitor },
     { name: 'Sports', href: '/sports', icon: Trophy },
+    { name: 'Mandatory Disclosure Forms', href: '#mandatory', icon: FileText },
     { name: 'Contact Us', href: '#footer', icon: Phone },
   ];
 

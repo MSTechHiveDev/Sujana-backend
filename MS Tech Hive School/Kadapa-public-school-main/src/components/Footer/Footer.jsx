@@ -168,7 +168,17 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col space-y-4 md:flex-row md:justify-between md:items-center md:space-y-0">
             <div className="text-sm text-gray-400 text-center md:text-left">
-              <p>&copy; 2025 Kadapa Public School. All rights reserved.</p>
+              <p>
+                &copy; 2025 Kadapa Public School. All rights reserved
+                <a
+                  href="https://www.mstechhive.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-yellow-400 hover:text-yellow-300 ml-2 transition-colors font-bold underline"
+                >
+                  Ms Tech Hive
+                </a>
+              </p>
             </div>
 
             {/* Social Media Links */}
